@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Майно-земля</title>
+    <link rel="stylesheet" href="./майно-земля.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:ital@1&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/02d9dfde2e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="Logo">
+
+                <a class="logo-parent" href="">
+
+                    <img class="logo-img"
+                        src="./images/Logo.png"
+                        alt="Logo">
+                    Insurance-Life
+                </a>
+            </div>
+            <ul class="nav-list">
+                <li> <a class="nav-list-link" href="./index.html">Головна</a> </li>
+                <li> <a class="nav-list-link" href="./Авто.html">Авто</a> </li>
+                <li> <a class="nav-list-link" href="./Медицина.html">Медицина</a> </li>
+                <li> <a class="nav-list-link" href="./Туризм.html">Туризм</a> </li>
+                    <li> <a class="nav-list-link" href="./about-us.html">Про нас</a></li>
+                    <li id="userIcon"> <a class="nav-list-link" href="./login.html" id="login-btn"><i class="fa fa-user"></i></a></li>
+            </ul>
+        </nav>
+            <div class="header-content">
+                <h1 class="header-cont-tittle"> Земельне<br>
+                    <span class="header-cont-tittle-color">Майно</span>
+                </h1>
+                <p class="cont-text"> комплексний захист вашої землі, <br> майна і відповідальності перед сусідами
+                </p>
+                <form onsubmit="event.preventDefault();" class="hero-form wr"> <input id="callMePhone"
+                        type="tel" placeholder="+380 (__) ___-__-__" class="input"> <a onclick="callMeMaino()"
+                        class="header-cont-button"><span>Зв'язатись</span></a></form>
+
+        </div>
+    </header>
+
+    <!--Main store-->
+
+    <div class="info-block">
+                    <ul class="nav-list-inf">
+                        <li> <a class="nav-list-info" href="#1">Про послугу</a> </li>
+                        <li> <a class="nav-list-info" href="#2">Ризики</a> </li>
+                        <li> <a class="nav-list-info" href="#3">Переваги</a> </li>                    
+                    </ul>
+    </div>
+
+
+    <div><h4 id="1" class="service-tittle">Про послугу</h4></div>
+    <div class="service">
+        <ul class="serv-list">
+            <p class="serv-list-new">можуть укласти орендарі офісних, адміністративних, складських і виробничих будинків і приміщень, а також особи, які
+            користуються чи розпоряджаються земельними ділянками (юридичні або фізичні особи, у т.ч. суб’єкти підприємницької
+            діяльності).</p>
+            <p class="serv-list-new"> Ви можете застрахувати:</p>
+            <li class="serv-list-new">земельну ділянку.</li>
+            <li class="serv-list-new">конструктивні елементи (включаючи внутрішнє оздоблення)</li>
+            <li class="serv-list-new">конструктивні елементи і оздоблення приміщень</li>
+        </ul>
+        <img class="car-photo"
+        src="./images/майно-2.jpg" alt="car-photo">
+    </div>
+
+        <br><br>
+
+        <!-- Risks -->
+    <div id="2" class="risks">
+            <h3 class="risk-type">Які ризики покриває:</h3>
+<p>
+        <h4 class="risk-1">Вогневі ризики <i class="fa-solid fa-fire"></i></h4>
+        <p class="risk-1-text">пожежа, задимлення в результаті пожежі, виділення сажі й корозійного газу</p>
+
+</p>
+
+<p>
+        <h4 class="risk-1">Стихійні явища<i class="fa-sharp fa-solid fa-wind"></i></h4>
+        <p class="risk-1-text">буря, ураган, шторм, вихор, смерч</p>
+</p>
+
+<p>
+        <h4 class="risk-1">Протиправні дії третіх осіб<i class="fa-solid fa-gun"></i></h4>
+        <p class="risk-1-text">крадіжка зі зламом, грабіж, розбій</p>
+</p>
+
+<p>
+        <h4 class="risk-1">Пошкодження водою внаслідок <i class="fa-solid fa-water"></i></h4>
+        <p class="risk-1-text">аварії технічних систем: водопровідних, каналізаційних, опалювальних</p>
+</p>
+    </div>
+
+<!-- Advantages -->
+            <h2 id="3" class="our-adv">Наші переваги</h2>
+    <div class="advantages">
+        <div class="icon-adv">
+            <img src="./images/med-4.svg" alt="vagy">
+            <div text-adv>
+                Можемо застрахувати без огляду, опису та оцінки землі
+            </div>
+        </div>
+        <div class="icon-adv">
+            <img src="./images/6.png" alt="vagy">
+            <div text-adv>
+                Виплачуємо відшкодування протягом 20 днів з моменту подачі всіх документів
+            </div>
+        </div>
+        <div class="icon-adv">
+            <img src="./images/med-1.svg" alt="vagy">
+            <div text-adv>
+                Цілодобова інформаційна підтримка
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!--Footer-->
+
+
+    <footer>
+        <div class="column">
+            <h4>Інформація:</h4>
+            <ul>
+                <li class="col-1"><a href="#">Про нас</a></li>
+                <li class="col-1"><a href="#">Наші сервіси</a></li>
+                <li class="col-1"><a href="#">Допомога ЗСУ</a></li>
+                <li class="col-1"><a href="#">Контакти</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h4>Напишіть нам:</h4>
+            <form>
+                <label class="col-size" for="message">Повідомлення:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <button type="submit">Відправити</button>
+            </form>
+        </div>
+        <div class="column">
+            <h4>Контакти:</h4>
+            <p class="col-1">Номер телефону: 123-456-7890</p>
+            <p>Локація: вул. Пасічна 169, Львів, Україна</p>
+            <br>
+            <p>Insurance-Life@gmail.com</p>
+            <br>
+            <p>Працюємо з <span class="time">10:00</span> до <span class="time">20:00</span></p>
+            <div class="social-icons">
+                <a href="https://facebook.com/arxukraine"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/arx_insurance/?hl=uk"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/info_line_bot"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://twitter.com/arx_insurance"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+        </div>
+    </footer>
+    <div class="sign">
+        <span> &copy; 2023 | Цей сайт створила Юлія Корнєва в межах навчання</span>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

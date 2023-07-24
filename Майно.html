@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Майно</title>
+    <link rel="stylesheet" href="./Майно.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:ital@1&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/02d9dfde2e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="header">
+      <nav class="nav">
+      <div class="Logo">
+       
+       <a class="logo-parent" href="">
+ 
+        <img class="logo-img" src="./images/Logo.png" alt="Logo">
+               Insurance-Life
+       </a>   
+      </div>
+      <ul class="nav-list">
+        <li> <a class="nav-list-link" href="./index.html">Головна</a> </li>
+        <li> <a class="nav-list-link" href="./Авто.html">Авто</a> </li>
+        <li> <a class="nav-list-link" href="./Медицина.html">Медицина</a> </li>
+        <li> <a class="nav-list-link" href="./Туризм.html">Туризм</a> </li>
+                    <li> <a class="nav-list-link" href="./about-us.html">Про нас</a></li>
+                    <li id="userIcon"> <a class="nav-list-link" href="./login.html" id="login-btn"><i class="fa fa-user"></i></a></li>
+      </ul>
+      <div class="nav-toggle">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="burger-icon">
+          <path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" class=""></path>
+        </svg>
+      </div>
+       </nav>
+      </div>
+        <div class="header-content">
+          <h1 class="header-cont-tittle"> Страхування <br>
+            <span class="header-cont-tittle-color">Майна</span>
+          </h1>
+          <p class="cont-text">Страхування багатьох видів майна: <br>
+            Квартир, будинків, змелі та техніки
+          </p>
+          <p class="cont-15">5 хв <span class="cont-pr">до 50 тис. €</span> <br>
+            <span class="cont-year">швидке та зручне оформлення онлайн</span> <span class="cont-fr">страхове покриття</span>
+          </p>
+        
+          <form onsubmit="event.preventDefault();" class="hero-form wr"> <input id="callMePhone"
+              type="tel" placeholder="+380 (__) ___-__-__" class="input"> <a onclick="callMeMaino()"
+              class="header-cont-button"><span>Зв'язатись</span></a></form>
+        
+        </div>
+        </header>
+        
+
+        <!--Main store-->
+        
+        <div class="container">
+          <div class="link-tabs-wr wr">
+            <div class="link-tab">
+              <div class="link-tab-wr">
+                <div class="link-title">
+                  <h4>
+                    <a href="#" target="_blank">Страхування</a>
+                  </h4>
+                  <h4><a href="#" target="_blank">Квартир та будинків</a>
+                  </h4>
+                </div>
+                <p class="det-1">Комплексний захист вашої квартири, будинку, майна і відповідальності перед сусідами.</p>
+                <div class="link-footer">
+                  <a href="./майно-кварт.html" class="btn btn-line">
+                    <span>Детальніше</span>
+                    <span class="arr"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9"
+                        fill="none">
+                        <path d="M7 .61l4 3.776-4 3.777M10 4.502H0" stroke="#fff" stroke-width="1.5"></path>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="link-tab">
+              <div class="link-tab-wr">
+                <div class="link-title">
+                  <h4><a href="#" target="_blank">Страхування</a>
+                  </h4>
+                  <h4><a href="#" target="_blank">Землі</a>
+                  </h4>
+                </div>
+                <p>Страхування захист від цілого переліку ризиків при страхуванні вашої земельної ділянки.</p>
+                <div class="link-footer">
+                  <a href="./майно-земля.html" class="btn btn-line">
+                    <span>Детальніше</span>
+                    <span class="arr">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M7 .61l4 3.776-4 3.777M10 4.502H0" stroke="#fff" stroke-width="1.5"></path>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="link-tab">
+              <div class="link-tab-wr">
+                <div class="link-title">
+                  <h4><a href="#" target="_blank">Страхування</a>
+                  </h4>
+                  <h4><a href="#" target="_blank">Техніки</a>
+                  </h4>
+                </div>
+                <p>Захист важливої та дорогої для Вас техніки з регулярною перевіркою справності.</p>
+                <div class="link-footer">
+                  <a href="./майно-техніка.html" class="btn btn-line">
+                    <span>Детальніше</span>
+                    <span class="arr">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                        <path d="M7 .61l4 3.776-4 3.777M10 4.502H0" stroke="#fff" stroke-width="1.5"></path>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <!--Footer-->
+
+
+<footer>
+  <div class="column">
+    <h4>Інформація:</h4>
+    <ul>
+      <li class="col-1"><a href="#">Про нас</a></li>
+      <li class="col-1"><a href="#">Наші сервіси</a></li>
+      <li class="col-1"><a href="#">Допомога ЗСУ</a></li>
+      <li class="col-1"><a href="#">Контакти</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <h4>Напишіть нам:</h4>
+    <form>
+      <label class="col-size" for="message">Повідомлення:</label><br>
+      <textarea id="message" name="message"></textarea><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <button type="submit">Відправити</button>
+    </form>
+  </div>
+  <div class="column">
+    <h4>Контакти:</h4>
+    <p class="col-1">Номер телефону: 123-456-7890</p>
+    <p>Локація: вул. Пасічна 169, Львів, Україна</p>
+    <br><p>Insurance-Life@gmail.com</p>
+    <br><p>Працюємо з <span class="time">10:00</span> до <span class="time">20:00</span></p>
+    <div class="social-icons">
+      <a href="https://facebook.com/arxukraine"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/arx_insurance/?hl=uk"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://t.me/info_line_bot"><i class="fa-brands fa-telegram"></i></a>
+      <a href="https://twitter.com/arx_insurance"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+
+  </div>
+</footer>
+<div class="sign">
+  <span> &copy; 2023 | Цей сайт створила Юлія Корнєва в межах навчання</span>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--    <div class="second-page">
+          <div class="second-content">
+            <h1 class="second-cont-tittle"> Автострахування <br>
+              <span class="second-cont-tittle-color">Електронний поліс</span> 
+            </h1>
+          </div>
+
+        </div> -->
+
+
+
+
+

@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form for registration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:ital@1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+  <script src="log.js" defer></script>
+</head>
+<body>
+  
+  <article class="container">
+
+    <div class="block">
+
+      <section class="block__item block-item">
+        <h2 class="block-item__tittle">У вас є аккаунт?</h2>
+        <button class="block-item__btn signin-btn">Вхід</button>
+      </section>
+      <section class="block__item block-item">
+        <h2 class="block-item__tittle">У вас нема аккаунта?</h2>
+        <button class="block-item__btn signup-btn">Зареєструватись</button>
+      </section>
+
+    </div>
+
+<!-- Блок форми -->
+
+<div class="form-box">
+
+ <!--  Форми для входу -->
+
+ <form onsubmit="event.preventDefault()" class="form form__signin">
+  <h3 class="form__tittle">Вхід</h3>
+
+  <p>
+     <input id="signInEmail" type="email" class="form__input" placeholder="Email" required>
+  </p>
+  <p>
+    <input id="signInPassword" type="password" class="form__input" placeholder="Пароль" required>
+  </p>
+  <p>
+   <a href="./index.html"><button id="signin" class="form__btn">Вхід</button></a> 
+  </p>
+
+
+ </form>
+
+<!--  Форма для реєстрації -->
+
+<form onsubmit="event.preventDefault()" class="form form__signup">
+  <h3 class="form__tittle">Реєстрація</h3>
+
+  <p>
+    <input id="signup-name" type="text" class="form__input" placeholder="Ім'я">
+  </p>
+  <p>
+    <input id="signup-lastname" type="text" class="form__input" placeholder="Прізвище">
+  </p>
+  <p>
+    <input id="signup-email" type="email" class="form__input" placeholder="Email">
+  </p>
+  <p>
+      <select name="" id="signup-gender" class="gender">
+       <option value="Male">Чоловіча</option>
+        <option value="Female">Жіноча</option>
+      </select>
+  </p>
+  <p>
+    <input id="signup-birth" type="date" class="form__input" placeholder="Дата народження">
+  </p>
+  <p>
+    <input id="signup-phone" type="" class="form__input" placeholder="Номер телефону">
+  </p>
+  <p>
+    <input id="signup-password" type="password" class="form__input" placeholder="Пароль">
+  </p>
+  <p>
+    <a href="./index.html"><button id="signup" class="form__btn form__btn__signup">Зареєструватись</button></a> 
+  </p>
+</form>
+
+</div>
+
+
+  </article>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медицина-добровільна</title>
+    <link rel="stylesheet" href="./медицина-добровільне.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:ital@1&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/02d9dfde2e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="Logo">
+
+                <a class="logo-parent" href="">
+
+                    <img class="logo-img"
+                        src="./images/Logo.png"
+                        alt="Logo">
+                    Insurance-Life
+                </a>
+            </div>
+            <ul class="nav-list">
+                <li> <a class="nav-list-link" href="./index.html">Головна</a> </li>
+                <li> <a class="nav-list-link" href="./Авто.html">Авто</a> </li>               
+                <li> <a class="nav-list-link" href="./Майно.html">Майно</a> </li>
+                <li> <a class="nav-list-link" href="./Туризм.html">Туризм</a> </li>
+                    <li> <a class="nav-list-link" href="./about-us.html">Про нас</a></li>
+                    <li id="userIcon"> <a class="nav-list-link" href="./login.html" id="login-btn"><i class="fa fa-user"></i></a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1 class="header-cont-tittle"> Медичне страхування <br>
+                <span class="header-cont-tittle-color">Добровільне</span>
+            </h1>
+            <p class="cont-text">покриваємо повну або часткову виплату коштів <br> за медичне обслуговування
+            </p>
+            <p class="cont-15">від 1080 грн<span class="cont-pr">до 100 тис. грн</span> <br>
+                <span class="cont-year"> вартість на рік</span> <span class="cont-fr">страхове покриття на рік</span>
+            </p>
+
+            <form onsubmit="event.preventDefault();" class="hero-form wr">
+                <input id="callMePhone" type="tel" placeholder="+380 (__) ___-__-__" class="input"> <a onclick="callMeMedicine()"
+                    class="header-cont-button"><span>Зв'язатись</span></a></form>
+
+        </div>
+    </header>
+
+    <!--Main store-->
+
+    <div class="info-block">
+        <ul class="nav-list-inf">
+            <li> <a class="nav-list-info" href="#1">Про послугу</a> </li>
+            <li> <a class="nav-list-info" href="#2">Опції полюсів</a> </li>
+            <li> <a class="nav-list-info" href="#3">Ризики</a> </li>
+            <li> <a class="nav-list-info" href="#4">Переваги</a> </li>
+        </ul>
+    </div>
+
+
+    <div>
+        <h4 id="1" class="service-tittle">Про послугу</h4>
+    </div>
+    <div class="service">
+        <ul class="serv-list">
+
+            <p class="serv-list-new">За програмою добровільного медичного страхування (ДМС) ви, захворівши, можете звернутися до медичного,
+            профілактично-оздоровчого або фармацевтичного закладу по допомогу. А ми компенсуємо витрати.</p>
+
+            <p class="serv-list-new">Пропонуємо три програми страхування:</p>
+            <li class="serv-list-new">Покриття викрадення, наслідків ДТП, стихійних лих, випадкових подій</li>
+            <li class="serv-list-new">“Базова” - страхова сума на рік 60 000 грн</li>
+            <li class="serv-list-new">“Стандарт” - страхова сума на рік 80 000 грн
+            </li>
+            <li class="serv-list-new">“Преміум” - страхова сума на рік 100 000 грн
+            </li>
+            <p class="serv-list-new"> Покриваємо витрати на лікування після звернення до сімейного лікаря. За програмами страхування: “Базова” та “Стандарт”,
+            окрім програми “Преміум”.</p>
+            <p class="serv-list-new">Поліси поки що доступні тільки для громадян України.</p>
+        </ul>
+        <img class="car-photo" src="./images/med-3.png" alt="car-photo">
+    </div>
+
+    <br><br>
+
+
+
+    <!-- Options -->
+
+    <div id="2" class="container">
+        <div class="link-tabs-wr wr">
+            <div class="link-tab">
+                <div class="link-tab-wr">
+                    <div class="link-title">
+                        <h4>
+                            <a href="#" target="_blank">Базова</a>
+                        </h4>
+                        <h4 ><a href="#" target="_blank"> <span class="red-col">від 1080 грн/рік</span></a>
+                        </h4>
+                    </div>
+                    <p class="det-1"> <i class="fa-solid fa-check"></i> 2 виклики швидкої медичної та екстреної допомоги</p>
+                    <p class="det-2"> <i class="fa-solid fa-x"></i> 2 000 грн на лабораторну <br> діагностику гострого стану</p>
+                    <p class="det-2"> <i class="fa-solid fa-x"></i> 5 малих та 2 великих <br> обстеження гострого стану</p>
+                    <p class="det-2"> <i class="fa-solid fa-x"></i> 3 консультації лікаря</p>
+                    <p class="det-2"> <i class="fa-solid fa-x"></i> 1000 грн на ліки</p>
+                </div>
+            </div>
+            <div class="link-tab">
+                <div class="link-tab-wr">
+                    <div class="link-title">
+                        <h4><a href="#" target="_blank">Стандарт</a>
+                        </h4>
+                        <h4 class="red-col"><a href="#" target="_blank"> <span class="red-col"> від 2040 грн/рік</span></a>
+                        </h4>
+                    </div>
+                    <p class="det-1"> <i class="fa-solid fa-check"></i> 2 виклики швидкої медичної та екстреної допомоги</p>
+                    <p class="det-1"> <i class="fa-solid fa-check"></i>2 000 грн на лабораторну <br> діагностику гострого стану</p>
+                    <p class="det-1"> <i class="fa-solid fa-check"></i>5 малих та 2 великих <br> обстеження гострого стану</p>
+                    <p class="det-2"> <i class="fa-solid fa-x"></i> 3 консультації лікаря</p>
+                    <p class="det-2"> <i class="fa-solid fa-x"></i> 1000 грн на ліки</p>
+                </div>
+            </div>
+            <div class="link-tab">
+                <div class="link-tab-wr">
+                    <div class="link-title">
+                        <h4><a href="#" target="_blank">Преміум</a>
+                        </h4>
+                        <h4 class="red-col"><a href="#" target="_blank"><span class="red-col">від 2880 грн/рік</span></a>
+                        </h4>
+                    </div>
+                    <p class="det-1"> <i class="fa-solid fa-check"></i> 2 виклики швидкої медичної та екстреної допомоги</p>
+                    <p class="det-1"> <i class="fa-solid fa-check"></i> 2 000 грн на лабораторну <br> діагностику гострого стану</p>
+                    <p class="det-1"> <i class="fa-solid fa-check"></i>5 малих та 2 великих <br> обстеження гострого стану</p>
+                    <p class="det-1"> <i class="fa-solid fa-check"></i> 3 консультації лікаря</p>
+                    <p class="det-1"> <i class="fa-solid fa-check"></i> 1000 грн на ліки</p>                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+    <!-- Risks -->
+    <div id="3" class="risks">
+        <h3 class="risk-type">Які ризики покриває:</h3>
+        <p>
+        <h4 class="risk-1">Діагностика <i class="fa-solid fa-stethoscope"></i></h4>
+        <p class="risk-1-text">Покриваємо лабораторну та інструментальну діагностику гострого стану</p>
+
+        </p>
+
+        <p>
+        <h4 class="risk-1">Медична допомога<i class="fa-solid fa-truck-medical"></i></h4>
+        <p class="risk-1-text">Покриваємо швидку та екстрено-стаціонарну допомог</p>
+        </p>
+
+        <p>
+        <h4 class="risk-1">Консультація <i class="fa-solid fa-user-doctor"></i></h4>
+        <p class="risk-1-text">Забезпечимо консультацію у лікаря
+        </p>
+
+    </div>
+
+    <!-- Advantages -->
+    <h2 id="4" class="our-adv">Наші переваги</h2>
+    <div class="advantages">
+        <div class="icon-adv">
+            <img src="./images/med-1.svg" alt="vagy">
+            <div text-adv>
+                Допоможемо та проконсультуємо 24/7
+            </div>
+        </div>
+        <div class="icon-adv">
+            <img src="./images/med-2.svg" alt="vagy">
+            <div text-adv>
+                Обирайте оптимальний для себе варіант серед наших програм
+            </div>
+        </div>
+        <div class="icon-adv">
+            <img src="./images/med-3.svg" alt="vagy">
+            <div text-adv>
+                Можливість лікуватися в приватних клініках
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--Footer-->
+
+
+    <footer>
+        <div class="column">
+            <h4>Інформація:</h4>
+            <ul>
+                <li class="col-1"><a href="#">Про нас</a></li>
+                <li class="col-1"><a href="#">Наші сервіси</a></li>
+                <li class="col-1"><a href="#">Допомога ЗСУ</a></li>
+                <li class="col-1"><a href="#">Контакти</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h4>Напишіть нам:</h4>
+            <form>
+                <label class="col-size" for="message">Повідомлення:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <button type="submit">Відправити</button>
+            </form>
+        </div>
+        <div class="column">
+            <h4>Контакти:</h4>
+            <p class="col-1">Номер телефону: 123-456-7890</p>
+            <p>Локація: вул. Пасічна 169, Львів, Україна</p>
+            <br>
+            <p>Insurance-Life@gmail.com</p>
+            <br>
+            <p>Працюємо з <span class="time">10:00</span> до <span class="time">20:00</span></p>
+            <div class="social-icons">
+                <a href="https://facebook.com/arxukraine"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/arx_insurance/?hl=uk"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/info_line_bot"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://twitter.com/arx_insurance"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+        </div>
+    </footer>
+    <div class="sign">
+        <span> &copy; 2023 | Цей сайт створила Юлія Корнєва в межах навчання</span>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

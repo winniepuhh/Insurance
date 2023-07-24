@@ -1,0 +1,63 @@
+/* form */
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-weight: bold;
+}
+
+select,
+input[type="number"],
+input[type="date"],
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    padding-bottom: 10px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.column{
+  margin: 10px;
+  display: flex;
+}
+
+
+
+
+

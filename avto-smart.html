@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авто-смарт</title>
+    <link rel="stylesheet" href="./avto-smart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:ital@1&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/02d9dfde2e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="Logo">
+
+                <a class="logo-parent" href="">
+
+                    <img class="logo-img"
+                        src="./images/Logo.png"
+                        alt="Logo">
+                    Insurance-Life
+                </a>
+            </div>
+            <ul class="nav-list">
+                <li> <a class="nav-list-link" href="./index.html">Головна</a> </li>
+                <li> <a class="nav-list-link" href="./Майно.html">Майно</a> </li>
+                <li> <a class="nav-list-link" href="./Медицина.html">Медицина</a> </li>
+                <li> <a class="nav-list-link" href="./Туризм.html">Туризм</a> </li>
+                    <li> <a class="nav-list-link" href="./about-us.html">Про нас</a></li>
+                    <li id="userIcon"> <a class="nav-list-link" href="./login.html" id="login-btn"><i class="fa fa-user"></i></a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1 class="header-cont-tittle"> Каско<br>
+                <span class="header-cont-tittle-color">"Смарт"</span>
+            </h1>
+            <p class="cont-text">унікальний страховий продукт, який дозволяє отримати знижку <br> до 25%, якщо ви - вправний водій
+            </p>
+            <p class="cont-15">до 25% <span class="cont-pr">10%</span> <br>
+                <span class="cont-year"> знижки для вправних водіїв на наступний рік</span> <span class="cont-fr">гарантована знижка  з додатком "Smart Drive"</span>
+            </p>
+
+            <form onsubmit="event.preventDefault();" class="hero-form wr">
+                <input id="callMePhone" type="tel" placeholder="+380 (__) ___-__-__" class="input"> <a onclick="callMeAvto()" id="callMeAvto"
+                    class="header-cont-button"><span>Зв'язатись</span></a></form>
+
+        </div>
+    </header>
+
+    <!--Main store-->
+
+    <div class="info-block">
+        <ul class="nav-list-inf">
+            <li> <a class="nav-list-info" href="#1">Про послугу</a> </li>
+            <li> <a class="nav-list-info" href="#2">Ризики</a> </li>
+            <li> <a class="nav-list-info" href="#3">Переваги</a> </li>
+        </ul>
+    </div>
+
+
+    <div>
+        <h4 id="1" class="service-tittle">Про послугу</h4>
+    </div>
+    <div class="service">
+        <ul class="serv-list">
+            <li class="serv-list-new">Купуючу Автоцивілку CМАРТ, ви гарантовано отримуєте 10% знижки відразу, та маєте можливість <br> отримати індивідуальну
+            знижку до 25% за стиль керування авто за принципом <br> Pay How You Drive («плати як їздиш») під час укладення нового
+            договору наступного року.</li>
+            <br>
+            <li class="serv-list-new">Щоб придбати Автоцивілку СМАРТ, вам необхідно завантажити мобільний додаток «Smart Drive». <br> Додаток буде фіксувати
+            основні показники водіння: <br> швидкість, маневри, прискорення, гальмування і використання телефону за кермом. <br> За кожну
+            поїздку вам нараховуються бали. <br> Вправніше їздите — маєте вищі бали — у підсумку маєте більшу знижку <br> на придбання
+            Автоцивілки наступного року.</li>
+            <br>
+            <li class="serv-list-new">Крім стандартного покриття обов’язкової автоцивілки, Автоцивілка СМАРТ передбачає варіант з КАСКО «Прямий захист». З
+            Автоцивілкою СМАРТ + КАСКО "Прямий захист" ви можете отримати відшкодування за своє авто в межах 160 000 грн. 
+            </li>
+            <br>
+            <li class="serv-list-new">За статистикою, більше ніж в 40% випадків ДТП, завдані збитки перевищують 160 000 грн. Тому ми рекомендуємо додати до
+            пакета страхування додаткове покриття. З додатковим покриттям, у разі настання ДТП, потерпілому може бути відшкодовано
+            до 1 000 000 грн (в залежності від обраної опції).
+            </li>
+            <br>
+        </ul>
+        <img class="car-photo" src="./images/manwithcar.jpg" alt="car-photo">
+    </div>
+
+    <br><br>
+
+    <!-- Risks -->
+    <div id="2" class="risks">
+        <h3 class="risk-type">Які ризики покриває:</h3>
+        <p>
+        <h4 class="risk-1">Шкода майну <i class="fa-solid fa-house-fire"></i> </h4>
+        <p class="risk-1-text">Покриваємо завдану шкоду майну 
+           <br> потерпілої особи до 1 000 000 грн</p>
+
+        </p>
+
+        <p>
+        <h4 class="risk-1">Шкода життю та здоров’ю <i class="fa-solid fa-face-head-bandage"></i></h4>
+        <p class="risk-1-text">Покриваємо завдану шкоду життю та здоров'ю 
+           <br> потерпілої особи на суму до 1 000 000 грн</p>
+        </p>
+
+        <p>
+        <h4 class="risk-1">Шкода вашому авто <i class="fas fa-car-crash"></i> </h4>
+        <p class="risk-1-text">Покриваємо завдану шкоду вашому авто у
+           <br>  разі ДТП з іншим учасником на суму до 130 000 грн
+        </p>
+        </p>
+    </div>
+
+    <!-- Advantages -->
+    <h2 id="3" class="our-adv">Наші переваги</h2>
+    <div class="advantages">
+        <div class="icon-adv">
+            <img src="./images/4.png" alt="vagy">
+            <div text-adv>
+                Можливість оформити електронний <br> поліс на сайті компанії
+            </div>
+        </div>
+        <div class="icon-adv">
+            <img src="./images/5.png" alt="vagy">
+            <div text-adv>
+                Повне покриття ваших витрат при <br> настанні ДТП з іншим учасником
+            </div>
+        </div>
+        <div class="icon-adv">
+            <img src="./images/6.png" alt="vagy">
+            <div text-adv>
+                Пряме врегулювання, коли вам не потрібно <br> звертатися за виплатою в іншу страхову компанію <br> у
+                разі вини іншого учасника ДТП
+            </div>
+        </div>
+        <div class="icon-adv">
+            <img src="./images/8.png" alt="vagy">
+            <div text-adv>
+                Можливість покращити водійську майстерність <br> з мобільним додатком "Smart Drivе"
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+
+
+    <footer>
+        <div class="column">
+            <h4>Інформація:</h4>
+            <ul>
+                <li class="col-1"><a href="#">Про нас</a></li>
+                <li class="col-1"><a href="#">Наші сервіси</a></li>
+                <li class="col-1"><a href="#">Допомога ЗСУ</a></li>
+                <li class="col-1"><a href="#">Контакти</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h4>Напишіть нам:</h4>
+            <form>
+                <label class="col-size" for="message">Повідомлення:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <button type="submit">Відправити</button>
+            </form>
+        </div>
+        <div class="column">
+            <h4>Контакти:</h4>
+            <p class="col-1">Номер телефону: 123-456-7890</p>
+            <p>Локація: вул. Пасічна 169, Львів, Україна</p>
+            <br>
+            <p>Insurance-Life@gmail.com</p>
+            <br>
+            <p>Працюємо з <span class="time">10:00</span> до <span class="time">20:00</span></p>
+            <div class="social-icons">
+                <a href="https://facebook.com/arxukraine"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/arx_insurance/?hl=uk"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/info_line_bot"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://twitter.com/arx_insurance"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+        </div>
+    </footer>
+    <div class="sign">
+        <span> &copy; 2023 | Цей сайт створила Юлія Корнєва в межах навчання</span>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

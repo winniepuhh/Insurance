@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./form.css">
+    <title>Форма</title>
+</head>
+<body>
+    
+<form onsubmit="event.preventDefault()">
+    <label class="column" for="tourism">Туризм:</label>
+    <select id="tourism" name="tourism">
+        <option value="active">Туристичне Страхування "Active"</option>
+        <option value="smart">Туристичне Страхування "Smart"</option>
+        <option value="business">Туристичне Страхування "Business"</option>
+    </select>
+
+
+
+    <label class="column" for="days">Кількість днів:</label>
+    <input type="number" id="days" name="days" min="1" max="30" required>
+
+    <label class="column" for="trips">Кількість поїздок:</label>
+    <input type="number" id="trips" name="trips" min="1" max="4" required>
+
+    <label class="column" for="start-date">Дата початку поїздки:</label>
+    <input type="date" id="start-date" name="start-date" required>
+
+    <label class="column" for="end-date">Дата кінця поїздки:</label>
+    <input type="date" id="end-date" name="end-date" required>
+
+    <label class="column" for="destination">Мета поїздки:</label>
+    <input type="text" id="destination" name="destination" required>
+
+    <button id="sendForm" type="submit">Надіслати</button>
+</form>
+
+
+    <script src="./tourism.js"></script>
+</body>
+</html>
+
+
+
+
